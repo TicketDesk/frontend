@@ -26,6 +26,7 @@ const Register = ({ history }) => {
       ...credentials,
       [e.target.name]: e.target.value,
     });
+    console.log(credentials);
   };
 
   const handleSubmit = (e) => {
